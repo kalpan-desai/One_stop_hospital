@@ -1,0 +1,3 @@
+@import './variables'; // Importing a file from the same directory
+@import '../components/button'; // Importing a file from a parent directory
+@import 'bootstrap/scss/bootstrap'; // Importing a file from node_modules
