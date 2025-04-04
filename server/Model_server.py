@@ -214,7 +214,7 @@ except FileNotFoundError:
     user_feedback = {}
 
 async def chat_with_bot(user_input, conversation_history):
-    api_key = "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"  # Add your API key
+    api_key = "groq API here"  # Add your API key
     client = AsyncGroq(api_key=api_key)
 
     messages = conversation_history + [
@@ -241,7 +241,7 @@ async def chat_with_bot(user_input, conversation_history):
     return response, messages
 
 async def chat_with_bot2(user_input):
-    api_key = "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"  # Add your API key
+    api_key = "groq API here"  # Add your API key
     client = AsyncGroq(api_key=api_key)
 
     messages = [
